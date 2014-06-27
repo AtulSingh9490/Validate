@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//
 //  ValidateEmail
 //
 //  Copyright (c) 2014 Atul Singh. All rights reserved.

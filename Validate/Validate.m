@@ -1,5 +1,5 @@
 //
-//  ViewController.m
+//
 //  ValidateEmail
 //
 //  Copyright (c) 2014 Atul. All rights reserved.
