@@ -22,23 +22,12 @@
 //OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //THE SOFTWARE.
 
-
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITextFieldDelegate>
+@interface Validate : NSObject
 
-@property(nonatomic, weak) IBOutlet UITextField *getEmail;
-@property(nonatomic, weak) IBOutlet UITextField *getPassword;
-
-@property(nonatomic, weak) IBOutlet UILabel *lbl_enterEmail;
-@property(nonatomic, weak) IBOutlet UILabel *lbl_enterPassword;
-@property(nonatomic, weak) IBOutlet UILabel *lbl_validEmail;
-@property(nonatomic, weak) IBOutlet UILabel *lbl_validPassword;
-
-@property(nonatomic, weak) IBOutlet UIButton *btn_validateEmail;
-@property(nonatomic, weak) IBOutlet UIButton *btn_validatePassword;
-
--(IBAction)validateEmail:(id)sender;
--(IBAction)validatePassword:(id)sender;
++(BOOL)validateEmail:(NSString*) emailString;
++(BOOL)validatePassword:(id)sender;
 
 @end
+

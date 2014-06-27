@@ -21,6 +21,7 @@
 		E99C8239195DC408000B8EE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99C821B195DC407000B8EE2 /* UIKit.framework */; };
 		E99C8241195DC408000B8EE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E99C823F195DC408000B8EE2 /* InfoPlist.strings */; };
 		E99C8243195DC408000B8EE2 /* ValidateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C8242195DC408000B8EE2 /* ValidateTests.m */; };
+		E99C824E195DC4A2000B8EE2 /* Validate.m in Sources */ = {isa = PBXBuildFile; fileRef = E99C824D195DC4A2000B8EE2 /* Validate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E99C823E195DC408000B8EE2 /* ValidateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ValidateTests-Info.plist"; sourceTree = "<group>"; };
 		E99C8240195DC408000B8EE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E99C8242195DC408000B8EE2 /* ValidateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidateTests.m; sourceTree = "<group>"; };
+		E99C824C195DC4A2000B8EE2 /* Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validate.h; sourceTree = "<group>"; };
+		E99C824D195DC4A2000B8EE2 /* Validate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Validate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				E99C8226195DC408000B8EE2 /* AppDelegate.h */,
 				E99C8227195DC408000B8EE2 /* AppDelegate.m */,
 				E99C8229195DC408000B8EE2 /* Main.storyboard */,
+				E99C824C195DC4A2000B8EE2 /* Validate.h */,
+				E99C824D195DC4A2000B8EE2 /* Validate.m */,
 				E99C822C195DC408000B8EE2 /* ViewController.h */,
 				E99C822D195DC408000B8EE2 /* ViewController.m */,
 				E99C822F195DC408000B8EE2 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				E99C822E195DC408000B8EE2 /* ViewController.m in Sources */,
 				E99C8228195DC408000B8EE2 /* AppDelegate.m in Sources */,
 				E99C8224195DC408000B8EE2 /* main.m in Sources */,
+				E99C824E195DC4A2000B8EE2 /* Validate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
