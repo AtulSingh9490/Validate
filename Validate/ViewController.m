@@ -41,6 +41,7 @@
 
 -(void)validateEmail:(id)sender{
 
+    ///ßßßßß
     [self.getEmail resignFirstResponder];
     
     if ([Validate validateEmail:self.getEmail.text]) {
